@@ -1,0 +1,25 @@
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.author img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.author p {
+  flex-grow: 1;
+}
+
+.author button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
